@@ -1,4 +1,8 @@
 # FindMe
+
+This is a demonstration for a social media platform concept tailored for job seekers/posters in creative, product oriented industries. 
+---Note: I do not own these images and these profiles are bot accounts.
+
 Register
 ![signup](https://github.com/sobrien-smo/FindMe/assets/119546519/a0bfd81a-6c55-4b1a-9a0e-64a1b3d6b7a8)
 
