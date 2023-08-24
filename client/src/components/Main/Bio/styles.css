@@ -1,0 +1,45 @@
+.profileContainer{
+    overflow: auto;
+    
+ 
+}
+.postContainer{
+    width: 300px;
+}
+.profilePosts{
+   
+    background-color: white;
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+
+}
+.fnum {
+    color: rgb(190, 190, 190);
+ 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pfp{
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+}
+.postPhoto{
+    width: 250px;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: ; */
+    gap: 10px;
+}
+
+
+.indent{
+    color: rgb(190, 190, 190);
+    font-size: small;
+    padding-left: 15px;
+    padding-right: 15px;
+}

@@ -1,0 +1,49 @@
+.container {
+    overflow: auto;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: ; */
+    gap: 10px;
+}
+.pfp{
+    width: 50px;
+    height: 50px;
+}
+
+.postContainer{
+    padding: 20px;
+    width: 90%;
+}
+.topRow {
+    flex-direction: row;
+
+}
+
+.formContainer {
+    margin-left: 33%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.searchText {
+    background-color: rgb(234, 234, 234);
+margin-right: 25px;
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+}
+
+.searchText:hover {
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}

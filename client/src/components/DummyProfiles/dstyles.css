@@ -1,0 +1,64 @@
+.profileContainer{
+    overflow: auto;
+}
+.profilePosts{
+   
+    background-color: white;
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.fnum {
+    color: rgb(190, 190, 190);
+ 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pfp{
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+}
+.postPhoto{
+    width: 250px;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: ; */
+    gap: 10px;
+}
+.grid-item{
+  
+  padding: 20px;
+}
+.followCounts{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-evenly;
+}
+.esBox {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+
+}
+.exp {
+    padding-left: 5%;
+
+}
+.ed {
+    width: 50%;
+    min-width: 200px;
+
+
+}
+.indent{
+    color: rgb(190, 190, 190);
+    font-size: small;
+    padding-left: 15px;
+    padding-right: 15px;
+}

@@ -1,0 +1,37 @@
+
+.mainContainer{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+
+.header{
+    padding-bottom: 30px;
+}
+.bioContainer{
+    width: 50%;
+   
+}
+.postContianer{
+    background-color: red;
+}
+.followCounts{
+    display: flex;
+    flex-direction:row;
+}
+.fText{
+    font-weight: 600;
+    font-size: large;
+    
+}
+.num{
+    color:rgb(71, 71, 71);
+    font-size: smaller;
+}
+.vl{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.hr{
+    width: 50%;
+}

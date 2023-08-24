@@ -1,0 +1,40 @@
+.profileContainer{
+    overflow: auto;
+}
+.num {
+    color: rgb(190, 190, 190);
+ 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.followStatus{
+    margin-left: 50%;
+}
+.follow{
+    margin-left: 25%;
+}
+.following{
+    margin-left: 75%;
+}
+.esBox {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+
+}
+.exp {
+    padding-left: 25%;
+
+}
+.ed {
+    width: 50%;
+    min-width: 200px;
+    padding-left: 5%;
+
+}
+.indent{
+    color: rgb(190, 190, 190);
+    font-size: small;
+    padding-left: 15px;
+    padding-right: 15px;
+}

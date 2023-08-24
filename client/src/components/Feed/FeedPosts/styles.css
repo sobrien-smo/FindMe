@@ -1,0 +1,176 @@
+.body {
+    flex-direction: unset;
+  
+}
+.dPostContainer {
+    overflow:auto;
+  
+    display: flex;
+    margin-left: -100px;
+flex-wrap: wrap;
+
+}
+.postContainer{
+    background-color: white;
+    
+   width: 600px;
+
+    /* flex-direction: "column"; */
+    
+}
+.container{
+    margin-left: 15px;
+}
+.commentList{
+    display: flex;
+    flex-direction: column;
+}
+.comment{
+    color: rgb(190, 190, 190);
+    font-size: small;
+}
+.group{
+    flex-direction: column;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.postDate{
+    margin-top: -10px;
+    color: rgb(190, 190, 190);
+    font-size: small;
+}
+ .row4{
+    display: flex;
+    flex-direction: row;
+}
+
+.likeCount{
+    margin-left: 5px;
+}
+.like{
+    width: 20px;
+    height: 20px;
+}
+.like:hover{
+    cursor: pointer;
+}
+.pfp {
+    border-radius: 100;
+   width: 50px;
+    height: 50px;
+}
+.border{
+    background-color:  #fefbfb;
+    color:   #fefbfb;
+    width: 105%;
+}
+.collapsible{
+    background-color: rgb(5, 18, 163);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 50px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 12px;
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+.commentBox {
+    flex-direction: row;
+    width: 200px;
+    margin-left: 25px;;
+}
+.comments {
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.commentNum{
+    padding-left: 10px;
+}
+.imgContainer{
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-right: 15px;
+ 
+}
+.img{
+    width: 550px;
+}
+.pfpContainer{
+    display: flex;
+    margin-left: -10px
+}
+/* 
+.pfpPost {
+    border-radius: 100;
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: -30rem;
+    justify-content: flex-start;
+} */
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: flex-start;
+    padding-top: 20px;
+   
+}
+.row2{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.captionText, .topics, .likes{
+    color: rgb(190, 190, 190);
+    font-size: small;
+    /* padding-left: 1px;
+    padding-right: 15px; */
+}
+.like {
+    width: 10px;
+    height: 10px;
+}
+.addCommentBox{
+margin-left: 5px;
+justify-content:space-around
+}
+.addComment{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.addCommentBtn{
+    border-radius: 100%;
+    background-color: rgb(153, 153, 153);
+    color: white;
+    border: none;
+    
+}
+.rowOther{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+.row6{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.postBottom{
+    padding-left: 25px;
+}
+.row5{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+
+}
+#postPhoto{
+    width: 500px;
+}

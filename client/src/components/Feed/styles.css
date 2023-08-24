@@ -1,0 +1,41 @@
+
+.row1{
+	justify-content: center;
+}
+
+.row2 {
+
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.mainContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+		overflow: auto;
+
+
+}
+
+ .left {
+
+	padding-right: 100px;
+
+}
+.middle{
+	padding-right: 100px;
+}
+
+.feedBox {
+    margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.postsContainer{
+	margin-left: 25%;
+	
+}
